@@ -1,5 +1,23 @@
 .intro{
+   
+    width: 270px;
+    height: 302px;
+    .para-intro{
+     padding: 10px 0 5px 10px;
+   .intro-img{
     display: flex;
-    background-color: blue;
+    justify-content: space-between;
+   }
+  
+
+   }
+   .address{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 0 5px 10px;
+
+   }
     
 }
+

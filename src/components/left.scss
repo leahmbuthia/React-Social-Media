@@ -1,0 +1,32 @@
+.below-image{
+    display: flex;
+    // justify-content: space-between;
+
+    // gap: 70px;
+    
+
+    // flex-direction: row;
+    .pro{
+        flex: 0.4;
+        // background-color: yellow;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-left: 45px;
+    }
+
+
+    .navs{
+        display: flex;
+        flex: 0.8;
+        // background-color: green;
+        // justify-content: space-between;
+        gap: 30px;
+        
+    }
+
+    .dim-header{
+        font-size: 20px;
+        color: rgb(165, 165, 165);
+    }
+}

@@ -1,0 +1,19 @@
+.posts-photos{
+    display: flex;
+    flex-direction: column;
+    .photos{
+        display: flex;
+        justify-content: space-between;
+        gap: 8rem;
+        padding: 0px 0 5px 10px;
+        p{
+            font-size: medium;
+            font-size: 12px;
+        }
+    }
+    .posts{
+        display: flex;
+        justify-content: space-between;
+        gap: 4rem;
+    }
+}

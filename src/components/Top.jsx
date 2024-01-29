@@ -1,6 +1,6 @@
 import React from 'react'
 import BackGround from "../assets/profile-background.png"
-import Avatar from "../assets/avatar.png"
+import Avatar from '../assets/profile-image.png'
 import './top.scss'
 
 const Top = () => {

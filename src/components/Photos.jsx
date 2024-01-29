@@ -5,10 +5,12 @@ import './photos.scss'
 
 const Photos = () => {
   return (
-      <div>
+      <div className='posts-photos'>
+        <div className='photos'>
           <h2>Photos</h2>
           <p>See All</p>
-          <div>
+          </div>
+          <div className='posts'>
               <img src={ pink } alt="pink pic" />
               <img src={blue} alt="blue pic" />
           </div>

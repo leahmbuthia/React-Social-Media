@@ -1,7 +1,12 @@
-.Top{
+
+.blueimage{
     display: flex;
-    .BackGround{
-        display: flex;
-     
+    flex-direction: column;
+    .avatar{
+        margin-left: 20px;
+        margin-top: -50px;
+        position: relative;
+        width: 100px;
     }
 }
+  

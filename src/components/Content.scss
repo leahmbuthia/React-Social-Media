@@ -1,0 +1,19 @@
+.complete-profile{
+        background-color: pink;
+        width: 264px;
+        height: 90px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 10px;
+        font-weight: bold;
+    
+    .input {
+        display: flex;
+        gap: 10px;
+        color: gray;
+        font-weight: bold;
+      }
+    }

@@ -8,12 +8,17 @@ import link from '../assets/ink.png'
 const Intro = () => {
   return (
     <div className="intro">
+      <div className="para-intro">
+      <div className="intro-img">
       <h2>Intro</h2>
       <img src={dots} alt="dots" />
-      <div className="about">
+      </div>
+      
         <p>
           I am an experienced joiner with <br /> well developed skills.
         </p>
+        </div>
+        <div className="about">
         <hr />
         <div className="address">
           <div className="address-details">

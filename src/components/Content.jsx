@@ -4,13 +4,20 @@ import Loading from '../assets/parameter.png'
 
 const Content = () => {
   return (
-      <div>
-          <div className="complete-profile">
-              <h2>Complete Your Profile</h2>
-              <img src={ Loading } alt="load" /> 
-              
-          </div>
+    <div className="complete-profile">
+    <label htmlFor="profile">Complete Your Profile</label>
+    <div className="input">
+      <input
+        type="range"
+        name="profile"
+        id="profile"
+        min={0}
+        max={100}
+        defaultValue={80}
+      />
+      <span>80%</span>
     </div>
+  </div>
   )
 }
 

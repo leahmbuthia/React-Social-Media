@@ -1,0 +1,9 @@
+.bottom{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+   .card{
+    display: flex;
+    flex-direction: row;
+   }
+}
