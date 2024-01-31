@@ -14,10 +14,17 @@
     
     .progress-input{
         display: flex;
-        gap: 10px;
+        gap: 13px;
         font-weight: bold;
         padding: 20px 8px;
-       
+
+       span{
+        color:rgba(100, 116, 139, 1);
+        
+       }
+       progress{
+        color: blue;
+       }
         
       }
       

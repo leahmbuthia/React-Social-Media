@@ -7,7 +7,7 @@ const Content = () => {
     <div className="complete-profile">
     <label htmlFor="profile">Complete Your Profile</label>
     <div className="progress-input">
-      <progress value={80} max={100} style={{ backgroundColor: 'yellow' }}></progress>
+      <progress value={80} max={100} ></progress>
       <span>80%</span>
     </div>
   </div>
