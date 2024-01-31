@@ -1,14 +1,16 @@
 .leftContent{
   display: flex;
   flex: 6;
-  gap: 10px;
-  height: 100vh;
+  gap: 32px;
+  height: 100%;
   .rightSide{
-    width: 75%;
-    background-color: #F8FAFC;
+    width: 80%;
+    
+    // background-color: #F8FAFC;
+    
   }
   .leftSide{
-    width: 25%;
+    width: 20%;
     height: 100%;
   }
 }

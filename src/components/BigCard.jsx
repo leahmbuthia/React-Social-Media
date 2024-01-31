@@ -5,7 +5,7 @@ import Card from './Card'
 
 const BigCard = () => {
   return (
-    <div className='items' style={{flexDirection: 'column'}}>
+    <div className='items' style={{flexDirection: 'row'}}>
         <Bottom/>
         <Card/>
     </div>

@@ -8,8 +8,8 @@ const Top = () => {
     <div className="Top">
       <div className="BackGround">
         <div className="blueimage">
-          <input type="text"placeholder='Edit Profile' />
-          <img src={BackGround} alt="noimage" />
+          <button type="onSubmit" placeholder="Edit Profile" ></button>
+          <img src={BackGround} alt="noimage" class="background-image" />
           <img className="avatar"src={Avatar} alt="noimage" />
         </div>
       </div>

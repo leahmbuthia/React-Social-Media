@@ -1,12 +1,38 @@
 .intro{
    
     width: 270px;
+    background-color: white;
     height: 302px;
     .para-intro{
      padding: 10px 0 5px 10px;
+     p{
+      
+font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 22px;
+text-align: left;
+color: rgba(100, 116, 139, 1);
+
+
+
+     }
    .intro-img{
     display: flex;
     justify-content: space-between;
+    img{
+      width: 30px;
+
+    }
+   }
+   h2{
+    color: rgba(15, 23, 42, 1);
+font-family: Inter;
+font-size: 14px;
+font-weight: 600;
+line-height: 22px;
+text-align: left;
+
    }
   
 
@@ -16,6 +42,16 @@
     flex-direction: column;
     gap: 10px;
     padding: 10px 0 5px 10px;
+    color: rgba(15, 23, 42, 1);
+    //styleName: body/medium/medium;
+font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 22px;
+.address-details{
+  display: flex;
+  gap: 10px;
+}
 
    }
     

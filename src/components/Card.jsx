@@ -1,10 +1,11 @@
 import React from 'react'
 import Mind from './Mind'
 import Feedback from './Feedback';
+import "../components/Card.scss"
 
 const Card = () => {
   return (
-    <div>
+    <div className='card-container' >
         <Mind/>
         <Feedback/>
     </div>

@@ -22,16 +22,16 @@ const Intro = () => {
         <hr />
         <div className="address">
           <div className="address-details">
-            <img src={location} alt="gps" /> <span>2972 Westheimer Rd.</span>
+            <img src={location} alt="gps" /> <p>2972 Westheimer Rd.</p>
           </div>
           <div className="address-details">
-            <img src={briefcase} alt="brief" /> <span>2972 Westheimer Rd.</span>
+            <img src={briefcase} alt="brief" /> <p>2972 Westheimer Rd.</p>
           </div>
           <div className="address-details">
-            <img src={calender} alt="calender" /> <span>2972 Westheimer Rd.</span>
+            <img src={calender} alt="calender" /> <p>2972 Westheimer Rd.</p>
           </div>
           <div className="address-details">
-            <img src={link} alt="link" /> <span>2972 Westheimer Rd.</span>
+            <img src={link} alt="link" /> <p>2972 Westheimer Rd.</p>
           </div>
         </div>
       </div>

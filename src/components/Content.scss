@@ -1,19 +1,25 @@
 .complete-profile{
-        background-color: pink;
         width: 264px;
-        height: 90px;
-        margin-bottom: 20px;
+        height: 200px;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
+        // align-items: center;
         border-radius: 10px;
         font-weight: bold;
+        
+       label{
+        padding-left: 6px;
+        margin-left: 0px;
+       } 
     
-    .input {
+    .progress-input{
         display: flex;
         gap: 10px;
-        color: gray;
         font-weight: bold;
+        padding: 20px 8px;
+       
+        
       }
+      
+    
     }

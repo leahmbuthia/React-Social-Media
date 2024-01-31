@@ -10,7 +10,7 @@ const Photos = () => {
           <h2>Photos</h2>
           <p>See All</p>
           </div>
-          <div className='posts'>
+          <div className='post-photos'>
               <img src={ pink } alt="pink pic" />
               <img src={blue} alt="blue pic" />
           </div>

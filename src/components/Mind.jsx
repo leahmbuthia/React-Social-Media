@@ -7,20 +7,25 @@ import './mind.scss'
 const Mind = () => {
   return (
     <div className='mind'>
+      <div className="profile-mind">
       <img src={avatar} alt="angie" />
       <span>
         <input type="text" placeholder="what's on your mind?" />
       </span>
+      </div>
       <hr />
       <div className="icons">
         <div className="mycons">
-          <img src={live} alt="live-video" /> <span>Live Video</span>
+          <img src={live} alt="live-video" />
+           <p>Live Video</p>
         </div>
         <div className="mycons">
-          <img src={image} alt="image/video" /> <span>Image/Video</span>
+          <img src={image} alt="image/video" /> 
+          <p>Image/Video</p>
         </div>
         <div className="mycons">
-          <img src={star} alt="activity" /> <span>Activity</span>
+          <img src={star} alt="activity" /> 
+          <p>Activity</p>
         </div>
       </div>
     </div>
