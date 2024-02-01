@@ -24,4 +24,20 @@
       padding: 10px;
       color: #64748B;
     }
+  
+
+    .active {
+      font-weight: bold;
+      color: blue; 
+    
+      &:before {
+        content: '\2022'; 
+        color: blue; 
+        margin-left: -10px;
+        margin-right: 5px;
+      }
+      img {
+        filter: brightness(150%); 
+      }
+    }
   }

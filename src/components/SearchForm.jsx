@@ -1,6 +1,6 @@
 
 import './SearchForm.scss';
-import searchIcon from '../assets/search-icon.png'
+// import searchIcon from '../assets/search-icon.png'
 
 const SearchForm=()=>{
     return(

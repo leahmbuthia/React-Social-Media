@@ -1,9 +1,12 @@
+.Top{
+    height: 150px;
+    width: 125%;
 
 .blueimage{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    height: 150px;
+    height: 130px;
     background-image: url("../assets/profile-background.png");
 background-repeat: no-repeat;
 background-size: cover;
@@ -22,6 +25,7 @@ button {
         position: relative;
         width: 100px;
     }
+}
   
 // .container {
 //     display: flex;

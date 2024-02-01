@@ -1,0 +1,58 @@
+.timeline {
+    height: 60vh;
+    display: flex;
+   flex-direction: column;
+    width: 700px;
+    padding: 10px;
+    background-color: rgba(248, 250, 252, 1);
+    .header{
+    width: 700px;
+    height: 30%;
+    border: 1px solid black;
+
+    h3{
+        color:rgba(15, 23, 42, 1);
+        font-family: Inter;
+        font-size: 22px;
+        font-weight: 700;    
+    }
+    }
+    hr{
+        border: 1px solid rgba(241, 245, 249, 1);
+        
+    }
+    .profilecontainer{
+      background-color: yellowgreen;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      .profile-item >img {
+        display:flex;
+        width: 40px;
+        height: 40px;
+        p{
+          font-size: 6px;
+        }
+      }  
+      
+    }
+  
+    
+    .profile-row {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    
+    .profile-item {
+      text-align: center;
+    }
+    
+    .profile-item img {
+      width: 100px; /* Adjust as needed */
+      height: auto;
+    }
+    
+    
+}

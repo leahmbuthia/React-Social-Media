@@ -1,53 +1,68 @@
-import React from 'react'
-import timeline from "../assets/layout-grid.png"
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import timeline from "../assets/layout-grid.png";
 import friends from "../assets/users.png";
 import groups from "../assets/star.png";
 import video from "../assets/video.png";
 import photos from "../assets/image.png";
-import calendar from "../assets/calendar.png";
+import Events from "../assets/calendar.png";
 import "./SideItems.scss";
 
 function SideItems() {
-    const menuItems = [
-      {
-        name: "Timeline",
-        icon: timeline,
-      },
-      {
-        name: "friends",
-        icon: friends,
-      },
-      {
-        name: "groups",
-        icon: groups,
-      },
-      {
-        name: "videos",
-        icon: video,
-      },
-      {
-        name: "photos",
-        icon: photos,
-      },
-      {
-        name: "calendar",
-        icon: calendar,
-      },
-    ];
+  const menuItems = [
+    {
+      name: "Timeline",
+      icon: timeline,
+      path: "/timeline",
+    },
+    {
+      name: "Friends",
+      icon: friends,
+      path: "/friends",
+    },
+    {
+      name: "Groups",
+      icon: groups,
+      path: "/groups",
+    },
+    {
+      name: "Videos",
+      icon: video,
+      path: "/videos",
+    },
+    {
+      name: "Photos",
+      icon: photos,
+      path: "/photos",
+    },
+    {
+      name: "Events",
+      icon: Events,
+      path: "/events",
+    },
+  ];
+
   return (
     <div className="sidemenu">
       <div className='heading'>
         <p>Menu</p>
       </div>
-      {menuItems &&
-        menuItems.map((item, index) => (
-          <div className="menu-item" key={index}>
-            <img src={item.icon} alt={item.name} />
-            <p>{item.name}</p>
-          </div>
-        ))}
+      <div className="menu-down">
+        {menuItems &&
+          menuItems.map((item) => (
+            <NavLink
+              key={item.path}
+              to={item.path}
+              className={({ isActive }) => (isActive ? "menu-item active" : "menu-item")}
+
+            >
+              <img src={item.icon} alt={item.name} />
+              <p>{item.name}</p>
+            </NavLink>
+          ))}
+      </div>
     </div>
   );
 }
 
-export default SideItems
+export default SideItems;
