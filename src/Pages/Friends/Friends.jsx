@@ -68,31 +68,34 @@ const Friends = () => {
 
     ]
   return (
-    <div className='friends'>Friends
-     <div className="header">
-      <h3>Your Timeline</h3>
+    <div className='friends'>
+     <div className="friendsMenu">
       
-      </div>
-      <hr/>
       {friends &&
         friends.map((item, index) => (
-          <div className='profilecontainer'>
-            <div className="friends-item" key={index}>
-                <div className="profie">
+          <div className='friendscontainer'>
+            <div className="friendsItem" key={index}>
+              <div className="profile">
+                <div className="name">
               <img src={item.icon} alt={item.name} />
-              <img src={Menu} alt="menu" />
-              </div>
-         
+              <div className="menu">
               <p>{item.name}</p>
               <p>{item.mail}</p>
-              <span>
-        <input type="text" placeholder="Message" />
-      </span>
-              
+              </div>
+              <img src={Menu} alt="menu"  />
+              </div>
+              <div className="message">
+           <input type="text" placeholder="Message" />
+           </div>
+          
             </div>
-          </div>  
-        ))}</div>
-  );
+          </div> 
+          </div> 
+        ))}
+        </div>
+        </div>
+  )
 }
+
 
 export default Friends

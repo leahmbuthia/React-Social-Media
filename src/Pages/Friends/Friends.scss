@@ -1,53 +1,103 @@
+
 // .friends {
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: space-between;
+//     max-width: 700px; /* Adjust as needed */
+//     margin: 0 auto;
+//     padding: 20px;
 //     height: 100vh;
-//     width: 700px;
+//   }
+  
+//   .profilecontainer {
+//     width: calc(50% - 10px); /* Two columns with a small gap */
+//     margin-bottom: 10px;
+//     box-sizing: border-box;
+//   }
+  
+//   .friends-item {
+//     display: flex;
+//     flex-direction: column;
+//     // align-items: center;
+//     // text-align: center;
 //     padding: 10px;
-//     background-color: rgba(248, 250, 252, 1);
-// }
+//     background-color: #f0f0f0; /* Example background color */
+//     border-radius: 8px;
+//   }
+  
+//   .friends-item img {
+//     width: 80px; /* Adjust image size as needed */
+//     height: 80px; /* Adjust image size as needed */
+//     border-radius: 50%;
+//     margin-bottom: 10px;
+//   }
+  
+//   .friends-item p {
+//     margin: 5px 0;
+//   }
+  
+//   .header {
+//     width: 100%;
+//     text-align: center;
+//     margin-bottom: 20px;
+//   }
+  
+//   .header h3 {
+//     margin: 0;
+//   }
+  
 .friends {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 700px; /* Adjust as needed */
-    margin: 0 auto;
-    padding: 20px;
-    height: 100vh;
+  background-color: white;
+  border-radius: 8px;
+  height: 100%;
+  max-width: 750px;
+  .friendsMenu{
+      display: flex;
+      flex-wrap: wrap;
+      .friendscontainer{
+          display: flex;
+          flex-direction: column;
+         
+          .friendsItem{
+            display: flex;
+            background-color:rgba(248, 250, 252, 1);
+              width: 27vw;
+              margin: 15px;
+              padding: 10px;
+              gap: 2rem;
+              border-radius: 8px;
+              
+              .profile{
+                display:flex;
+                flex-direction: column;
+                // align-items: center;
+                justify-content: space-between;
+                gap: 1rem;
+                .name{
+                  display: flex;
+                  gap: 1rem;
+                  align-items: center;
+                }
+                 
+              }
+              .message{
+                width: 100%;
+                input{
+                  width: 100%;
+                  background-color: white;
+                      padding: 1rem 0;
+                      border: none;
+                      border-radius: 8px;
+                      color: blue;
+                      font-size: 17px;
+                      font-weight: 600;
+                  }
+                  
+              }
+          }
+      }
+         
   }
-  
-  .profilecontainer {
-    width: calc(50% - 10px); /* Two columns with a small gap */
-    margin-bottom: 10px;
-    box-sizing: border-box;
-  }
-  
-  .friends-item {
-    display: flex;
-    flex-direction: column;
-    // align-items: center;
-    // text-align: center;
-    padding: 10px;
-    background-color: #f0f0f0; /* Example background color */
-    border-radius: 8px;
-  }
-  
-  .friends-item img {
-    width: 80px; /* Adjust image size as needed */
-    height: 80px; /* Adjust image size as needed */
-    border-radius: 50%;
-    margin-bottom: 10px;
-  }
-  
-  .friends-item p {
-    margin: 5px 0;
-  }
-  
-  .header {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .header h3 {
-    margin: 0;
-  }
-  
+
+
+}

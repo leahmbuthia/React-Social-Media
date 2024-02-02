@@ -1,8 +1,9 @@
 .main {
     display: inline-flex;
     gap: 32px;
-    margin-top: 15px;
     height: 100vh;
     width: 100%;
     overflow-x: hidden;
+    display: flex;
+    padding-top: 80px; 
 }

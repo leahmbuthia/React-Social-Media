@@ -1,0 +1,44 @@
+.vedios{
+    display: flex;
+    height: 50px;
+    background-color:rgba(248, 250, 252, 1);
+    border-bottom: 1px solid #F1F5F9;
+    min-width: 700px;
+    padding: 0 20px;
+  
+    .head {
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 30rem;
+        flex: 1;
+    }
+    .search{
+        padding-left: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        // flex: 6;
+        // flex-shrink: 0;
+        img{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 24px;
+                &:hover{
+                cursor: pointer;
+                transition: all 0.3s ease-in-out;
+                background-color: rgb(199, 215, 228);
+                border-radius: 10%;
+                }
+            }
+        }
+
+      img{
+        display: flex;
+        flex-direction: column;
+      }
+    }

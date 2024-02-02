@@ -49,24 +49,24 @@ function Timeline () {
 ]
   return (
       <div className="timeline">
-      
+      <div className="timelineMenu">
       <div className="header">
       <h3>Your Timeline</h3>
-      
       </div>
-      <hr/>
+      <div className="profile">
       {profile &&
         profile.map((item, index) => (
-          <div className='profilecontainer'>
-            <div className="profile-item" key={index}>
+          <div className='profilecontainer'key={index}>
+            <div className="profile-item"> 
               <img src={item.icon} alt={item.name} />
               <p>{item.name}</p>
-              
             </div>
           </div>  
         ))}
-        <Mind/>
+        </div>
+        <Mind />
         <Feedback/>
+        </div>
     </div>
   );
 

@@ -1,31 +1,21 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.scss'
-import Navbar from './layout/Navbar'
-import Main from './layout/Main'
-import Login from '../src/Pages/Login.jsx'
-import Register from './Pages/Register.jsx';
-import Timeline from './Pages/Timeline/Timeline.jsx';
+import Login from './Pages/Login';
+import Register from './Pages/Register';
+import Main from './layout/Main';
+
 
 function App() {
 
   return (
 <div className="social-medias">
-<BrowserRouter>
-    <Routes>
-                        <Route path="/" element={<Login />} />
-                        <Route path="/register" element={<Register />} />
-                        <Route path="/App" element={<App />} />
-                       
-                        {/* Add more routes as needed */}
-                    </Routes>
-    {/* <Login/>
-    <App /> */}
-      <Navbar/> 
-  <Main/> 
 
-    </BrowserRouter>
-
- 
+<Routes>
+<Route path="/" element={<Register/>} />
+<Route path="/register" element={<Register/>}/>
+<Route path='/login' element={<Login/>}/>
+<Route path="/*" element={<Main/>}/>
+</Routes>
 </div>
   )
 }
