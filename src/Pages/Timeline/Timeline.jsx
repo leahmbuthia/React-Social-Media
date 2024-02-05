@@ -20,15 +20,15 @@ function Timeline () {
     
     {
         icon:wade,
-        name:'Wade Warren'
+        name:'Wade'
     },
     {
         icon:jane,
-        name:'Jane Cooper'
+        name:'Jane'
     },
     {
         icon:esther,
-        name:'Esther Howard'
+        name:'Esther'
     },
     {
         icon:cameron,
@@ -39,13 +39,14 @@ function Timeline () {
         name:'BWarren'
     },
     {
-      icon:Bro,
-      name:'Warren'
+      icon:Siz,
+      name:'Anglee'
   },
-  {
-    icon:Siz,
-    name:'Warren'
-},
+    {
+      icon:Bro,
+      name:'Anglee'
+  },
+
 ]
   return (
       <div className="timeline">

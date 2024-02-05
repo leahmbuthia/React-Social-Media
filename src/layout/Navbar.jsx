@@ -1,6 +1,5 @@
 import './Navbar.scss';
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
 import LogoIcon from '../assets/logo.png';
 import Responsive from '../assets/responsive.png';
 import NavIcon from '../components/NavIcon';

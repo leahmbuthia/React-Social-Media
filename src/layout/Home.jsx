@@ -7,10 +7,10 @@ import './Home.scss'
 import Friends from '../Pages/Friends/Friends';
 import Groups from '../Pages/Group/Groups';
 import Videos from '../Pages/Videos/Videos';
-import Photos from '../Pages/Photos/Photos';
+
 import Events from '../Pages/Events/Events';
 import Navbar from './Navbar';
-import Notification from '../Pages/Notification';
+import PhotosPages from '../Pages/Photos/PhotoPages';
 
 const Home = () => {
     return (
@@ -30,10 +30,9 @@ const Home = () => {
                         <Route path="/friends" element={<Friends/>} />
                         <Route path="/groups" element={<Groups/>} />
                        <Route path="/videos" element={<Videos/>}/>
-                       <Route path="/Photos" element={<Photos/>}/>
+                       <Route path="/Photos" element={<PhotosPages/>}/>
                        <Route path="/events" element={<Events/>}/>
-                       <Route path="/notifications" element={<Notification/>}/>
-                        {/* Add more routes as needed */}
+                    
                     </Routes>
             </div>
             <div className="rightSid">

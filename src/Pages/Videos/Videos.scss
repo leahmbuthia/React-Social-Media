@@ -1,44 +1,44 @@
-.vedios{
-    display: flex;
-    height: 50px;
-    background-color:rgba(248, 250, 252, 1);
-    border-bottom: 1px solid #F1F5F9;
-    min-width: 700px;
-    padding: 0 20px;
-  
-    .head {
-        padding: 10px;
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row;
-        align-items: center;
-        justify-content: flex-start;
-        gap: 30rem;
-        flex: 1;
-    }
-    .search{
-        padding-left: 20px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        // flex: 6;
-        // flex-shrink: 0;
-        img{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            gap: 24px;
-                &:hover{
-                cursor: pointer;
-                transition: all 0.3s ease-in-out;
-                background-color: rgb(199, 215, 228);
-                border-radius: 10%;
-                }
-            }
-        }
+.VideosPage{
+  height: 90vh;
+  width: 130vh;
+  background-color:rgb(235, 246, 255);
+  overflow: scroll;
+  scroll-behavior: smooth;
+  display: flex;    
+  flex-direction: column;
+  margin-left: 10px;
+  .navbar{        
+      padding: 30px;
+      gap: 20vh;
+      height: 0px;
+      align-items: center;
+      justify-content: space-between;
 
-      img{
-        display: flex;
-        flex-direction: column;
+      .rightSide{
+          display: flex;
+          align-items: center;
+          button{
+              color: #fff;
+              background-color: blue;
+              width: 120%;
+              height: 50%;
+              margin-right: 10px;
+              border-radius: 15px;
+          }
+          
       }
-    }
+  }
+  .Categories{
+      display: flex;
+      justify-content: space-between;
+     
+      button{
+          color: blue;
+          margin-right: 20px;
+      }
+  }
+  .VideosItems{
+      display: flex;
+      flex-direction: row;
+  }
+}

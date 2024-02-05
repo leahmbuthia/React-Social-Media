@@ -18,10 +18,12 @@ const Login = () => {
       storedUserDetails.username === data.username &&
       storedUserDetails.password === data.password
     ) {
-      console.log('Login successful'); // Output login success message to console for debugging
+      console.log('Login successful');
+      alert('Login successful');  // Output login success message to console for debugging
       navigate('/main'); // Redirect to main page upon successful login
     } else {
-      console.log('Invalid username or password'); // Output login failure message to console for debugging
+      console.log('Invalid username or password');
+      alert('Invalid username or password. Please try again.');  // Output login failure message to console for debugging
     }
   };
 
@@ -30,10 +32,10 @@ const Login = () => {
     <div className="login">
       <div className="card">
         <div className="left">
-          <h1>Hello World.</h1>
+          <h1>Hello </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cum, alias totam numquam ipsa exercitationem
-            dignissimos, error nam, consequatur.
+          Welcome to our premier social media platform! Here, find a community of individuals from diverse backgrounds, 
+          all coming together to share their thoughts, experiences, and passions
           </p>
           <span>Don't you have an account?</span>
           

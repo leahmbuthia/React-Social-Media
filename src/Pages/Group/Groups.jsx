@@ -1,13 +1,14 @@
 import React from 'react'
 import './Group.scss'
 import Search from '../..//assets/search-icon.png'
-import Center from './Center'
-import Bottom from './Bottom'
+import CenterItems from './CenterItems'
+import BottomItems from './BottomItems'
 
 const Groups = () => {
   return (
     <div className='Group'>
-        <div className="head">
+      <div className="groupSearchItems">
+        <div className="header">
         <h2>Groups</h2>
         <div className="search">
         <img src={Search} alt="Search" />
@@ -16,8 +17,9 @@ const Groups = () => {
       </span>
       </div>
         </div>
-        <Center/>
-        <Bottom/>
+        <CenterItems/>
+        <BottomItems/>
+        </div>
         </div>
   )
 }

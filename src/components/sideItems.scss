@@ -1,8 +1,8 @@
 .sidemenu {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    // justify-content: center;
+    // align-items: center;
     text-transform: capitalize;
     font-size: 12px;
     .heading {
@@ -18,8 +18,8 @@
     }
     .menu-item{
       display: flex;
-      justify-content: center;
-      align-items: center;
+      // justify-content: center;
+      // align-items: center;
       gap: 10px;
       padding: 10px;
       color: #64748B;
