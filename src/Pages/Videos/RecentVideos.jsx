@@ -1,6 +1,7 @@
 import './RecentVideos.scss'
 import avatar from '../..//assets/avatar1.png'
 import cook from '../..//assets/vedio3.png'
+import dots from '../..//assets/dots.png'
 
 
 const RecentVideo = () => {
@@ -12,6 +13,9 @@ const RecentVideo = () => {
                 <div className="Userdetails">
                   <p>Jonathan Lee</p>
                   <span>56 mins ago</span>
+                  <div className="dots">
+                    <img src={dots} alt="" />
+                  </div>
                 </div>                
               </div>
               <div className="activdescript">

@@ -1,122 +1,63 @@
-import './Events.scss'
-// import calendar from '../assets/calendar.png'
-// import lap from '../assets/laptopCode.png'
-// import users from '../assets/users.png'
-// import map from '../assets/map-pin.png'
+import calendar from "../..//assets/calendar.png";
+import EventDisplay from "./EventDisplay";
+import "./Events.scss";
 
-const Events = () => {
+const Event = () => {
   return (
-    <div className='EventsPage' >
-      <h2>Find Event</h2>
-      <div className="header">
-        <div className="leftSide">
-          <span>Popular</span>
-          <span>For you</span>
-          <span>Nearest</span>
-          <span>Favourite</span>
-          <span>Registered</span>
+    <div className="event-container">
+      <div className="event">
+        <div className="event-header">
+          <h3>Find Event</h3>
+          <p>. . . </p>
         </div>
-        <div className="rightSide">
-          <img src={calendar} alt="nopic" />
-          <span>November</span>
+        <div className="event-selection">
+          <div className="selection-list">
+            <ul>
+              <li>
+                <a href="#">Popular</a>
+              </li>
+              <li>
+                <a href="#">For You</a>
+              </li>
+              <li>
+                <a href="#">Nearest</a>
+              </li>
+              <li>
+                <a href="#">Favorite</a>
+              </li>
+              <li>
+                <a href="#">Registered</a>
+              </li>
+            </ul>
+            <div className="event-date">
+              <img src={calendar} alt="" />
+              <p>November</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="event-grid">
+          <EventDisplay />
+          <EventDisplay />
+          <EventDisplay />
+          <EventDisplay />
+          <EventDisplay />
+          <EventDisplay />
+          <EventDisplay />
+          <EventDisplay />
+          <EventDisplay />
+          <EventDisplay />
+          <EventDisplay />
+          <EventDisplay />
+          {/* <EventDisplay />
+          <EventDisplay />
+          <EventDisplay />
+          <EventDisplay />
+          <EventDisplay /> */}
         </div>
       </div>
-      <div className="list">
-        <div className="eventCard">
-          <img src={lap} alt="nopic" />
-          <div className="eventDetail">
-            <div className="eventName">
-              <h4>National Seminar</h4>
-              <span>By Carolyne</span>
-            </div>
-            <div className="date">
-              <img src={calendar} alt="nopic" />
-              <span>03 Feb, 2024.</span>
-            </div>
-          </div>
-          <div className="people">
-            <img src={users} alt="nopic" />
-            <span>+2K are going</span>
-          </div>
-          <div className="location">
-            <img src={map} alt="" />
-            <span>4715 Nyeri. KSD center</span>
-          </div>
-          <button className='Register-btn' >Register</button>
-        </div>
-
-        <div className="eventCard">
-          <img src={lap} alt="" />
-          <div className="eventDetail">
-            <div className="eventName">
-              <h4>National Seminar</h4>
-              <span>By Carolyne</span>
-            </div>
-            <div className="date">
-              <img src={calendar} alt="nopic" />
-              <span>03 Feb, 2024.</span>
-            </div>
-          </div>
-          <div className="people">
-            <img src={users} alt="" />
-            <span>+2K are going</span>
-          </div>
-          <div className="location">
-            <img src="" alt="" />
-            <span>4715 Nyeri. KSD center</span>
-          </div>
-          <button className='Register-btn' >Register</button>
-        </div>
-
-        <div className="eventCard">
-          <img src={lap} alt="" />
-          <div className="eventDetail">
-            <div className="eventName">
-              <h4>National Seminar</h4>
-              <span>By Carolyne</span>
-            </div>
-            <div className="date">
-              <img src={calendar} alt="nopic" />
-              <span>03 Feb, 2024.</span>
-            </div>
-          </div>
-          <div className="people">
-            <img src={users} alt="" />
-            <span>+2K are going</span>
-          </div>
-          <div className="location">
-            <img src="" alt="" />
-            <span>4715 Nyeri. KSD center</span>
-          </div>
-          <button className='Register-btn' >Register</button>
-        </div>
-
-        <div className="eventCard">
-          <img src={lap} alt="" />
-          <div className="eventDetail">
-            <div className="eventName">
-              <h4>National Seminar</h4>
-              <span>By Carolyne</span>
-            </div>
-            <div className="date">
-              <img src={calendar} alt="nopic" />
-              <span>03 Feb, 2024.</span>
-            </div>
-          </div>
-          <div className="people">
-            <img src={users} alt="" />
-            <span>+2K are going</span>
-          </div>
-          <div className="location">
-            <img src="" alt="" />
-            <span>4715 Nyeri. KSD center</span>
-          </div>
-          <button className='Register-btn' >Register</button>
-        </div>
-      </div>
-
     </div>
-  )
-}
+  );
+};
 
-export default Events
+export default Event;

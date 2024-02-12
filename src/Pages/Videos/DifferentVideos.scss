@@ -1,20 +1,35 @@
 .VideosItems{
     display: flex;
     gap: 1rem;
+    width: 100%;
+    justify-content: space-between;
+    background-color: white;
+    margin-top: 10px;
+
+.Videos{
+   
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 80vh;
+    padding: 20px;
+    background-color:rgba(248, 250, 252, 1);
+    // background-color: white;
     justify-content: center;
     margin-left: 10px;
-}
-.Videos{
-    background-color: rgb(243, 222, 222);
-    display: flex;
-    flex-direction: row;
-    border-radius: 10px;
-    width: 70vh;
-    justify-content: center;
+    height: 290px;
+    margin-bottom: 10px;
+    .video1{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        
+    }
     
     .Music{
         display: flex;
-        gap: 7rem;
+        justify-content: space-around;
+        // background-color: white;
         align-items: center;
         img{
             height: 40px;
@@ -22,4 +37,43 @@
 
         }
     }
+    Button{
+        background-color:white;
+        padding: 10px ;
+        color:#2563EB;
+        font-weight: 700;
+        font-size: 14px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        width: 70%;
+        height: 42px;
+        
+    }
+}
+.Video{
+
+ display: flex;
+ flex-direction: column;
+ border-radius: 10px;
+ width: 80vh;
+ padding: 10px 0px 10px 15px;
+ background-color:rgba(248, 250, 252, 1);
+ // background-color: white;
+//  justify-content: center;
+ margin-left: 3px;
+ height: 290px;
+ margin-bottom: 10px;
+
+}
+button{
+    width: 100px;
+    background-color: white;
+    height: 42px;
+    padding: -10px;
+    // margin-left: -5px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
 }

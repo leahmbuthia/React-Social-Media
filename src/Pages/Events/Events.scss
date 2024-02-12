@@ -1,4 +1,79 @@
-.EventsPage{
-    height: 90vh;
+.event-container {
     width: 130vh;
-}
+    height: 90vh;
+    
+    .event {
+      display: flex;
+      flex-direction: column;
+  
+      .event-grid {
+        width: 100%;
+        height: 72vh;
+        padding: 5px 0px 5px 0px;
+        overflow-y: hidden;
+      }
+  
+      .event-header {
+        height: 30px;
+        border-bottom: 2px solid gainsboro;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+  
+      .event-selection {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+  
+        .event-date {
+          display: flex;
+          flex-direction: row;
+          padding-right: 20px;
+          // gap:0.5rem;
+          border: 2px solid gainsboro;
+          height: 6vh;
+          align-items: center;
+          border-radius: 5px;
+  
+          img {
+            width: 30px;
+            height: 30px;
+          }
+        }
+  
+        .selection-list {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+  
+          ul {
+            display: flex;
+            flex-direction: row;
+            width: 70%;
+            height: 100%;
+            justify-content: space-between;
+            align-items: center;
+  
+            li {
+              list-style: none;
+  
+              a {
+                text-decoration: none;
+                color: rgb(56, 56, 56);
+                cursor: pointer;
+                font-weight: 600;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  

@@ -47,4 +47,40 @@
       
     }
 }
+@media screen and (max-width: 500px){
+  
+    
+    .navbar{
+        display: flex;
+        position: fixed;
+        width: 100%;
+      
+        .nav-logo {
+           .resp-menu{
+            display: flex;
+            flex-direction: row;
+            padding: 5px;
+            border-radius: 6px;
+            border: 1px solid #F1F5F9;
+           }
+        }
+        .right-nav{
+            .resp-right-menu{
+                display: block;
+            }
+            .nav-input{
+                display: none;
+            }
+            .nav-icons{
+                display:none;
+               
+    
+            }
+          
+        }
+        
+    }
+    }
+    
+    
 

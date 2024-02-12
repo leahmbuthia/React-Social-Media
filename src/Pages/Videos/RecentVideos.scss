@@ -1,6 +1,8 @@
 .videos{
     display: flex;
     flex-direction: column;
+    background-color: white;
+    margin-top: 20px;
     .User{
         display: flex;
         align-items: center;
@@ -8,14 +10,19 @@
         padding: 10px;
         .Avat{
             border-radius: 50%;
+            width: 60px;
         }
 
         .Userdetails{
-            
+           
             p{
-                margin-bottom: 1px;
+                margin-bottom: 3px;
                 font-weight: bold;
             }
+            // .dots{
+            //     display: flex;
+            //     flex-direction: row;
+            // }
 
         }
     }
@@ -27,15 +34,14 @@
         gap: 0.7rem;        
         margin-bottom: 0px;
         padding-bottom: 30px;
-        overflow-x: scroll;
+        overflow-y: scroll;
         scroll-behavior: smooth;
         
         img{
             
-            width: 90%;
-            height: 120%; 
-            margin-left: 1px;
-            margin-right: 40px; 
+            width: 100%;
+            height: 100%; 
+            
                                      
         }                        
     }
